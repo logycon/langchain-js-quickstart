@@ -1,0 +1,23 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "description": "Explore js-langchain",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build -- -w",
+    "quickstart1": "ts-node quickstart1.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.68",
+    "serpapi": "^1.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
